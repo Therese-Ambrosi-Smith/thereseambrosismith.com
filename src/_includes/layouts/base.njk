@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ metadata.language }}" class="scroll-pt-6 {{ htmlClass }}" x-data="xDOM">
+	<head>
+    {%- if eleventy.env.runMode === "serve" -%}
+      <link rel="stylesheet" href="/css/main.css">
+    {%- else -%}
+      <style>{%- include "../../../_site/css/main.css" -%}</style>
+    {%- endif -%}
+    {% include "../partials/scripts-head.njk" %}
+	</head>
+	<body class="bg-white {{ bodyClass }}">
+
+		<a href="#skip" class="sr-only">Skip to main content</a>
+
+		{% include "../partials/header.njk" %}
+
+		{# Set min height for main section alpine js #}
+		<main id="skip" class="my-12">
+			<div class="container sm:px-10">
+				{{ content | safe }}
+			</div>
+		</main>
+
+    {% include "../partials/footer.njk" %}
+
+    <script src="/js/main{%- if eleventy.env.runMode == 'build' -%}.{{ build.hash.short }}{%- endif -%}.js" defer type="text/javascript"></script>
+	</body>
+</html>

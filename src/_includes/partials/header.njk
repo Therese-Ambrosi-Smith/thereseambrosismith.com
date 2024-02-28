@@ -1,0 +1,82 @@
+<header class="flex-col items-center justify-center w-full">
+  <div class="container py-6">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold text-red">Wax</h1>
+      <p class="text-xl italic text-gray">A novel about women in the 1940s</p>
+    </div>
+  </div>
+  <div class="container p-0 border-t-4 border-black">
+    {% image "/images/mastehead-graphic16.jpg", "", [auto], "w-full" %}
+    <div class="bg-black text-gray-100 text-xs">
+
+      <nav class="flex flex-wrap">
+
+        {% set menuArray = [
+          {
+            title: 'Author Website',
+            newTab: true,
+            url: "https://thereseambrosismith.com/"
+          },
+          {
+            title: 'Inspiration',
+            url: "/"
+          },
+          {
+            title: 'Praise for "Wax"',
+            url: "/early-praise-for-wax/"
+          },
+          {
+            title: 'Book',
+            url: "/the-book/"
+          },
+          {
+            title: 'Chapters 1 & 2',
+            url: "/sample-chapters-1-2/"
+          },
+          {
+            title: 'Liberty Ships',
+            url: "/about-liberty-ships/"
+          },
+          {
+            title: 'Tilly\'s Favourite Places',
+            url: "/tillys-favorites/"
+          },
+          {
+            title: 'Blog',
+            url: "/news-from-the-tour/"
+          },
+          {
+            title: 'Tin Can Camper Book Tour',
+            url: "/tin-can-book-tour/"
+          },
+          {
+            title: 'Women in the 1940s, in the news',
+            url: "/rosie-in-the-news/"
+          },
+          {
+            title: 'Support your local bookstore!',
+            url: "/support-your-local-bookstore/"
+          },
+          {
+            title: 'Contact',
+            url: "/contact/"
+          },
+          {
+            title: 'Rationing for the home cook',
+            url: "/rationing-for-the-home-cook/"
+          }
+        ] %}
+
+        {% for item in menuArray %}
+          <a class="block p-3 hover:bg-gray-200/30 text-white transition-all hover:font-semibold"
+             {{ 'target="_blank"' if item.newTab }}
+             href="{{ item.url }}">
+            {{ item.title }}
+          </a>
+        {% endfor %}
+
+      </nav>
+    </div>
+  </div>
+
+</header>
