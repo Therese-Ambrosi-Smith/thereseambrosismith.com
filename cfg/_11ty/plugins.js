@@ -4,41 +4,40 @@
  */
 
 module.exports = {
-  // Drafts support
-  DraftsSupport: (eleventyConfig) => {
-    const plugin = require("./drafts.js");
-    eleventyConfig.addPlugin(plugin);
-  },
+    MetaGenerator: (eleventyConfig) => {
+        const plugin = require("eleventy-plugin-metagen");
+        eleventyConfig.addPlugin(plugin);
+    },
 
-  // Official plugins
-  RSS: (eleventyConfig) => {
-    const plugin = require("@11ty/eleventy-plugin-rss");
-    eleventyConfig.addPlugin(plugin);
-  },
+    Feather: (eleventyConfig) => {
+        const plugin = require("eleventy-plugin-feathericons");
+        eleventyConfig.addPlugin(plugin);
+    },
 
-  SyntaxHighlight: (eleventyConfig) => {
-    const plugin = require("@11ty/eleventy-plugin-syntaxhighlight");
-    eleventyConfig.addPlugin(plugin, {preAttributes: {tabindex: 0}});
-  },
+    // Drafts support
+    DraftsSupport: (eleventyConfig) => {
+        const plugin = require("./drafts.js");
+        eleventyConfig.addPlugin(plugin);
+    },
 
-  EleventyHtmlBase: (eleventyConfig) => {
-    const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
-    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  },
+    // Official plugins
+    RSS: (eleventyConfig) => {
+        const plugin = require("@11ty/eleventy-plugin-rss");
+        eleventyConfig.addPlugin(plugin);
+    },
 
-  PhosphorIcons: (eleventyConfig) => {
-    const plugin = require('eleventy-plugin-phosphoricons');
-    eleventyConfig.addPlugin(plugin, {
-      class: "phicon",
-      size: 32,
-      fill: "currentColor"
-    });
-  },
+    SyntaxHighlight: (eleventyConfig) => {
+        const plugin = require("@11ty/eleventy-plugin-syntaxhighlight");
+        eleventyConfig.addPlugin(plugin, { preAttributes: { tabindex: 0 } });
+    },
 
-  // Easily grab an svg image and render the raw svg contents with the ability to add classes
-  // Ex: {{ '/src/assets/images/logo.svg' | svgContents("h-8 w-8 text-red-500") | safe }}
-  svgContents: function (eleventyConfig) {
-    const plugin = require("eleventy-plugin-svg-contents");
-    eleventyConfig.addPlugin(plugin);
-  }
+    Navigation: (eleventyConfig) => {
+        const plugin = require("@11ty/eleventy-navigation");
+        eleventyConfig.addPlugin(plugin);
+    },
+
+    EleventyHtmlBase: (eleventyConfig) => {
+        const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+        eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+    },
 };

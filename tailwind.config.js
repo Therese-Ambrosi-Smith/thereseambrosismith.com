@@ -42,13 +42,27 @@ module.exports = {
                 white: "#fff",
                 black: "#000",
                 red: {
-                    DEFAULT: "#A80000"
+                    600: "#CC4D21",
+                    DEFAULT: "#A80000",
+                },
+                prismarine: {
+                    600: "#07818C",
+                    DEFAULT: "#07818C"
+                },
+                stone: {
+                  500: "#E2DBD1",
+                  DEFAULT: "#E2DBD1"
+                },
+                skin: {
+                  500: "#E2DBD1",
+                  DEFAULT: "#E2DBD1",
+                  600: "#D1BFA6"
                 },
                 gray: {
                     100: "#AAAAAA",
                     200: "#8A8A8A",
                     300: "#777777",
-                    DEFAULT: "#666666"
+                    DEFAULT: "#666666",
                 },
                 carbon: {
                     500: "#333333",
@@ -73,7 +87,10 @@ module.exports = {
                     "copy-2xl": "85ch",
                 },
             },
-
+            backgroundImage: {
+                "body-background": "url('/images/bg-paper.jpg')",
+                "header-pattern": "url('/images/header-design.jpg')",
+            }
         },
     },
     plugins: [
@@ -84,7 +101,23 @@ module.exports = {
         ({ addComponents, theme }) => {
             addComponents({
                 ".prose": {
-                    "@apply text-carbon marker:prose-li:text-black prose-h3:text-black prose-h3:text-[16px] prose-h3:font-bold prose-h2:text-lg prose-h2:text-black prose-h1:text-black prose-h1:font-bold prose-h1:text-2xl prose-h2:text-lg": {},
+                    "@apply text-black marker:prose-li:text-black": {
+                    },
+                    "h1": {
+                        "@apply text-prismarine text-4xl font-bold text-center": {},
+                    },
+                    "h2": {
+                        "@apply text-lg text-black text-lg": {},
+                    },
+                    "h3": {
+                        "@apply text-black text-[16px] font-bold": {},
+                    },
+                    "a": {
+                        "@apply text-red-600 no-underline" : {},
+                    },
+                    "p": {
+                        "@apply text-lg": {},
+                    },
                 },
                 ".container": {
                     "@apply px-4 mx-auto": {},

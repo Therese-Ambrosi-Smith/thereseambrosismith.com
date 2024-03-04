@@ -8,14 +8,14 @@
     {%- endif -%}
     {% include "../partials/scripts-head.njk" %}
 	</head>
-	<body class="bg-white {{ bodyClass }}">
+	<body class="bg-body-background {{ bodyClass }}">
 
 		<a href="#skip" class="sr-only">Skip to main content</a>
 
 		{% include "../partials/header.njk" %}
 
 		{# Set min height for main section alpine js #}
-		<main id="skip" class="my-12">
+		<main id="skip" class="pb-5 my-12">
 			<div class="container sm:px-10">
 				{{ content | safe }}
 			</div>

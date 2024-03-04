@@ -1,74 +1,54 @@
-<header class="flex-col items-center justify-center w-full">
-  <div class="container py-6">
-    <div class="text-center">
-      <h1 class="text-5xl font-bold text-red">Wax</h1>
-      <p class="text-xl italic text-gray">A novel about women in the 1940s</p>
+<header class="container flex-col items-center justify-center w-full bg-header-pattern bg-no-repeat bg-right-top">
+  <div class="container max-w-3xl py-24">
+    <div class="mx-auto text-center">
+      <a href="/" class="italic text-6xl font-bold text-red-600">Therese Ambrosi Smith</a>
+
+      <div class="border-[3px] border-red-600 mt-2"></div>
+
+      <div class="border-2 border-gray mt-1"></div>
+
+      <p class="italic text-3xl font-bold text-black mt-2">Author</p>
     </div>
   </div>
-  <div class="container p-0 border-t-4 border-black">
-    {% image "/images/mastehead-graphic16.jpg", "", [auto], "w-full" %}
-    <div class="bg-black text-gray-100 text-xs">
 
-      <nav class="flex flex-wrap">
+  <div class="container">
+    <div class="text-black font-bold text-sm">
+
+      <nav class="flex flex-wrap border-b border-white" style="background: url('https://s0.wp.com/wp-content/themes/pub/liquorice/images/border.gif') repeat-x top">
 
         {% set menuArray = [
           {
-            title: 'Author Website',
-            newTab: true,
-            url: "https://thereseambrosismith.com/"
-          },
-          {
-            title: 'Inspiration',
+            title: 'Author',
             url: "/"
           },
           {
-            title: 'Praise for "Wax"',
-            url: "/early-praise-for-wax/"
-          },
-          {
-            title: 'Book',
-            url: "/the-book/"
-          },
-          {
-            title: 'Chapters 1 & 2',
-            url: "/sample-chapters-1-2/"
-          },
-          {
-            title: 'Liberty Ships',
-            url: "/about-liberty-ships/"
-          },
-          {
-            title: 'Tilly\'s Favourite Places',
-            url: "/tillys-favorites/"
-          },
-          {
             title: 'Blog',
-            url: "/news-from-the-tour/"
+            url: "/blog/"
           },
           {
-            title: 'Tin Can Camper Book Tour',
-            url: "/tin-can-book-tour/"
+            title: 'Books',
+            url: "/books/"
           },
           {
-            title: 'Women in the 1940s, in the news',
-            url: "/rosie-in-the-news/"
+            title: 'Places',
+            url: "/places/"
           },
           {
-            title: 'Support your local bookstore!',
-            url: "/support-your-local-bookstore/"
+            title: 'Events',
+            url: "/events/"
+          },
+          {
+            title: 'About Wax',
+            url: "https://womeninthe1940s.com/"
           },
           {
             title: 'Contact',
             url: "/contact/"
-          },
-          {
-            title: 'Rationing for the home cook',
-            url: "/rationing-for-the-home-cook/"
           }
         ] %}
 
         {% for item in menuArray %}
-          <a class="block p-3 hover:bg-gray-200/30 text-white transition-all hover:font-semibold"
+          <a class="uppercase block p-3 hover:text-red-600 hover:bg-stone font-extrabold transition-all {{ 'bg-stone text-red-600' if item.url == permalink }}"
              {{ 'target="_blank"' if item.newTab }}
              href="{{ item.url }}">
             {{ item.title }}
