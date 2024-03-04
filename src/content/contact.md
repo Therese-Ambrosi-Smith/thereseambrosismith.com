@@ -1,15 +1,14 @@
 ---
 layout: page.njk
 title: Contact
+pageTitle: Contact
 permalink: /contact/
 ---
 
-<h2 class="mt-0">Therese Ambrosi Smith</h2>
+## Therese Ambrosi Smith
 
 PO Box 3593
 
 Half Moon Bay, CA 94019
 
-wax1941@att.net
-
-Please share stories or comments about women in the 1940s
+<a href="mailto:wax1941@att.net?subject=Contact from ThereseAmbrosiSmith.com">wax1941@att.net</a>

@@ -1,7 +1,8 @@
 ---
 layout: page.njk
-title: Tilly's Favorite Places, Red Oak Victory
-permalink: /tillys-favorites/
+title: Places
+pageTitle: Places
+permalink: /places/
 ---
 
 ## Red Oak Victory
