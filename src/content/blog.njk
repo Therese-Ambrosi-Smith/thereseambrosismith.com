@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Blog
+pageTitle: Blog
+permalink: /blog/
+---
+
+<section class="py-4 md:py-8">
+  <div class="prose">
+
+    <div class="grid grid-cols-1 gap-4 lg:gap-8 prose mx-auto">
+      {% for post in collections.posts | reverse %}
+        {% include "partials/single-post-card.njk" %}
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

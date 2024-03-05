@@ -4,6 +4,9 @@ desc: "My friend Rube baits me. He's one of the most creative people I know, but
 date: 2011-03-13
 tags: []
 ---
+<div class="md:float-right md:pl-10">
+  {% image "./DSCN0427.jpg", "", [300] %}
+</div>
 
 My friend Rube baits me. He's one of the most creative people I know, but he enjoys launching my pursuit of his ideas more than acting on them.
 
@@ -16,5 +19,3 @@ I'll never learn. Or maybe I don't want to. I think often of Rube's idea to buil
 In early March, Rube called me to tell me his in-laws Elly and Ernie, inMinden, Nevada, had an old travel trailer that a renter had left behind. He said they would give it to me. I'd been toying with the idea of a camping book tour -- my characters lived in an Airstream during the war -- and here was an offer of a free camper. The details were vague, but I hadn't seen Elly and Ernie in more than a year, and a drive over the Sierra seemed like a fine Sunday activity. Maybe it was meant to be.
 
 Long story short: it wasn't. Rube had misjudged the size of the trailer by 50%; there was no way my Ranger would pull it. And among the many things it needed, it needed tires -- which is probably why it was left behind. But the die was cast and I was now convinced that I needed a vintage camper for my book tour.
-
-{% image "./DSCN0427.jpg", "", [900] %}

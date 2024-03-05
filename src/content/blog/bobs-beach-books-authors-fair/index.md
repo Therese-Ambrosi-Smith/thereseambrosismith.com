@@ -12,6 +12,12 @@ Bob's Beach Books is a small but vibrant store in Lincoln City, Oregon. The staf
 
 I hope I get invited back next year. Hint. I had a great time.
 
-{% image "./DSCN0499.jpg", "", [900] %}
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+  <div class="mx-auto">
+    {% image "./DSCN0499.jpg", "", [240] %}
+  </div>
 
-{% image "./DSCN0496.jpg", "", [900] %}
+  <div class="mx-auto">
+    {% image "./DSCN0496.jpg", "", [240] %}
+  </div>
+</div>
