@@ -6,6 +6,10 @@ date: 2013-04-05
 tags: []
 ---
 
+<div class="flex justify-center sm:float-left sm:pr-10">
+  {% image "./trustmalloy-fund-raiser.png", "", [300] %}
+</div>
+
 Proceeds from the sale of “Wax” will help fund new exhibits at Rosie the Riveter/ WWII Home Front National Historical
 Park. Click on the “Buy Books” link in the top menu bar.
 

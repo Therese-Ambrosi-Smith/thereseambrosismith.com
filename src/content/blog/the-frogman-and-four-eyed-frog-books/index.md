@@ -19,6 +19,6 @@ show.
 As promised, the show was FUN. And the reading I did on Saturday afternoon was also enjoyable.
 
 Four-Eyed Frog special orders books and offers on-line fulfillment. Their website
-is [https://foureyedfrog.com](https://foureyedfrog.com/) We need to support local businesses like Joel's because they
+is [https://foureyedfrog.com](/goto/four-eyed-frog/) We need to support local businesses like Joel's because they
 offer so much more than a place to buy things – they offer a place to gather, to interact with knowledgable
 booksellers, and in the case of Four-Eyed Frog, pick up litter along the highway!

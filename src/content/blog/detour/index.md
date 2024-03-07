@@ -10,7 +10,7 @@ instead of the map. Usually the route is direct; unfortunately it’s not always
 cross a river without a bridge.
 
 It’s been a year since “Wax” was published and I hit the road in my tin can camper. Posts about the book tour are
-archived [here](/events/), and at [https://womeninthe1940s.com](https://womeninthe1940s.com). If you like women’s
+archived [here](/events/), and at [https://womeninthe1940s.com](/goto/womeninthe1840s/). If you like women’s
 fiction and history, please visit that site too.
 
 I hope we cross paths some day.
