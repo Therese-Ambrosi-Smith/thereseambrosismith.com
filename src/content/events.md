@@ -6,6 +6,7 @@ permalink: /events/
 ---
 
 <h2 class="!text-3xl !font-extrabold underline" >2012 Events</h2>
+
 <p><u>Saturday, August 25,</u> <a href="https://bobsbeachbooks.net/47-2/">Pacific Northwest Author’s Fair</a> – It was my favorite event last year, and I am really looking forward to seeing you there!</p>
 
 <u>Date TBD in November,</u> Kirkland Crush, Seattle, WA

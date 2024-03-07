@@ -1,7 +1,7 @@
 module.exports = {
 	tags: ["posts"],
 	layout: "post.njk",
-	permalink: "/blog/{{ title | slugify }}/",
+	permalink: "/blog/{{ (locationTitle or title) | slugify }}/",
     author: "Therese",
     authorUrl: "https://thereseambrosismith.com/"
 };

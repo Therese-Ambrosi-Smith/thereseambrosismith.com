@@ -6,7 +6,10 @@ permalink: /places/
 ---
 
 ## Red Oak Victory
-The SS Red Oak Victory, launched in 1944, is the last surviving cargo ship built at the Kaiser/Richmond shipyards, and is being restored in Richmond, California, by the Richmond Museum Association. The Association offers docent tours. This slide show features Ivy Henry reading from <b>Wax</b>.
+
+The SS Red Oak Victory, launched in 1944, is the last surviving cargo ship built at the Kaiser/Richmond shipyards, and
+is being restored in Richmond, California, by the Richmond Museum Association. The Association offers docent tours. This
+slide show features Ivy Henry reading from <b>Wax</b>.
 
 {% youTube "YXiai7aPXts", "red oak victory" %}
 
@@ -15,7 +18,9 @@ The SS Red Oak Victory, launched in 1944, is the last surviving cargo ship built
 </em>
 
 ## Montara Mountain
-Tilly’s longing to travel is expressed through her frequent hikes to North Peak, where “she can see places farther from home than she’s ever been..” Ivy Henry narrates the slide show with a reading from <b>Wax</b> .
+
+Tilly’s longing to travel is expressed through her frequent hikes to North Peak, where “she can see places farther from
+home than she’s ever been..” Ivy Henry narrates the slide show with a reading from <b>Wax</b> .
 
 {% youTube "OxerCbbEyrE", "Montara Mountain" %}
 
@@ -24,7 +29,9 @@ Tilly’s longing to travel is expressed through her frequent hikes to North Pea
 </em>
 
 ## Coffee Shop
-Paul drives Tilly to Richmond for her job in the shipyards, and she crosses the Bay Bridge for the first time in her life.  Father and daughter stop for a coffee break, just before reaching the on-ramp.
+
+Paul drives Tilly to Richmond for her job in the shipyards, and she crosses the Bay Bridge for the first time in her
+life. Father and daughter stop for a coffee break, just before reaching the on-ramp.
 
 {% youTube "w1akga8CYnQ", "Coffee Stop" %}
 
@@ -35,6 +42,7 @@ Paul drives Tilly to Richmond for her job in the shipyards, and she crosses the 
 </em>
 
 ## Inherited Cove
+
 During the war Doris inherits five acres of isolated waterfront property from a mysterious uncle she’s never met.
 
 {% youTube "NVudbxbko20", "Doris' Cove" %}
