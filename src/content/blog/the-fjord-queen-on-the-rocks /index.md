@@ -32,4 +32,4 @@ and told Barry he was more worried about him. And then when he was leaving sugge
 others that have run aground – called the Beached Boys.
 
 To follow the story of a fisherman getting back on his feet, see</br>
-[https://captainbarrysfresh.com/](/goto/captain-barrys-fresh/)
+[https://captainbarrysfresh.com/](https://captainbarrysfresh.com/)

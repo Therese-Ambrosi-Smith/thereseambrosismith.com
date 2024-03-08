@@ -5,7 +5,7 @@ pageTitle: Books
 permalink: /books/
 ---
 <div class="flex justify-center md:float-left md:pr-10">
-  <a href="/goto/Wax/">
+  <a target="_blank" href="/goto/Wax/">
     {% image "/images/wax-cover.jpg", "", [auto], "w-60 h-80" %}
   </a>
 </div>
@@ -50,23 +50,23 @@ Below is a list of debut-author-friendly independent bookstores that do online f
 
 ## By city — listed alphabetically — they are:
 
-<p class="m-0">Bainbridge Island, WA: <a href="https://www.eagleharborbooks.com/" target="_blank" class="text-blue-500">Eagle Harbor Book Company</a></p>
+<p class="m-0">Bainbridge Island, WA: <a href="/goto/eagleharborbooks/" target="_blank">Eagle Harbor Book Company</a></p>
 
-<p class="m-0">Bellingham, WA: <a href="https://www.villagebooks.com/" target="_blank" class="text-blue-500">Village Books</a> in Fairhaven</p>
+<p class="m-0">Bellingham, WA: <a href="/goto/villagebooks/" target="_blank">Village Books</a> in Fairhaven</p>
 
-<p class="m-0">Gualala, CA: <a href="https://www.foureyedfrog.com/" target="_blank" class="text-blue-500">Four-Eyed Frog Books</a></p>
+<p class="m-0">Gualala, CA: <a href="/goto/four-eyed-frog/" target="_blank">Four-Eyed Frog Books</a></p>
 
-<p class="m-0">La Canada, CA: <a href="https://www.flintridgebooks.com/" target="_blank" class="text-blue-500">Flintridge Bookstore & Coffeehouse</a></p>
+<p class="m-0">La Canada, CA: <a href="/goto/flintridgebooks/" target="_blank">Flintridge Bookstore & Coffeehouse</a></p>
 
-<p class="m-0">Leavenworth, WA: <a href="https://www.abookforallseasons.com/" target="_blank" class="text-blue-500">A Book for All Seasons</a></p>
+<p class="m-0">Leavenworth, WA: <a href="/goto/abookforallseasons/" target="_blank">A Book for All Seasons</a></p>
 
-<p class="m-0">Lincoln City OR: <a href="https://bobsbeachbooks.net/" target="_blank" class="text-blue-500">Bob’s Beach Books</a></p>
+<p class="m-0">Lincoln City OR: <a href="/goto/bobsbeachbooks/" target="_blank">Bob’s Beach Books</a></p>
 
-<p class="m-0">Olympia, WA: <a href="https://www.orcabooks.com/" target="_blank" class="text-blue-500">Orca Books</a></p>
+<p class="m-0">Olympia, WA: <a href="/goto/orcabooks/" target="_blank">Orca Books</a></p>
 
-<p class="m-0">Quincy, CA: Epilog Books Spokane, WA: <a href="https://www.auntiesbooks.com/" target="_blank" class="text-blue-500">Auntie’s Books</a></p>
+<p class="m-0">Quincy, CA: Epilog Books Spokane, WA: <a href="/goto/auntiesbooks/" target="_blank">Auntie’s Books</a></p>
 
-<p class="m-0">Walla Walla, WA: <a href="http://www.bookandgame.com/" target="_blank" class="text-blue-500">Book & Game</a></p>
+<p class="m-0">Walla Walla, WA: <a href="/goto/bookandgame/" target="_blank">Book & Game</a></p>
 
 <p class="m-0">Watsonville, CA: Crossroads Books</p>
 
