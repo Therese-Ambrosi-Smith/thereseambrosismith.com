@@ -18,7 +18,9 @@ permalink: /
   of the print version of “Wax” – through this website or the National Park bookstore – will be donated to the Rosie The
   Riveter Trust in support of exhibit development.
 
-  {% image "/images/dscn0295.jpg", "", [auto] %}
+  <div class="mx-auto w-1/2 sm:float-left sm:pr-10 sm:w-1/3">
+    {% image "/images/dscn0295.jpg", "", [auto] %}
+  </div>
 
   “[Wax](/books/)” was recognized as a finalist for both the Eric Hoffer First Horizon Award and the Next Generation Indie Book Awards.
 </div>

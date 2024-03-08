@@ -1,22 +1,14 @@
-{% set pageTitle = pageTitle or title %}
+{% set pageTitle = metadata.suffix + (pageTitle or title) %}
 
-{% if permalink|includes('/tags/') %}
-  {% set robots = 'noindex' %}
-  {% set pageTitle = 'Tagged “' + tag|slugify + '”' %}
-  {% set permalink = '/tags/' + tag|slugify + '/' %}
-{% endif %}
-
-{% if permalink|includes('/blog/') %}
-  {% set pageTitle = title + ' | ' + metadata.author.name %}
-  {% set permalink = '/blog/' + title|slugify + '/' %}
-  {% set ogImage = '/img/og/' + title|slugify + '.png' %}
+{% if permalink|includes('/blog/') and permalink !== '/blog/' %}
+  {% set pageTitle = title + ' | Therese Ambrosi Smith' %}
 {% endif %}
 
 {% set defaultOGImage = '/default-og-image.png' %}
 
 {% metagen
 	robots=robots or metadata.robots,
-	title=(pageTitle or title or metadata.title)|escapeMetaData,
+	title=pageTitle|escapeMetaData,
 	desc=(desc or metadata.description)|escapeMetaData,
 	url=metadata.url + (metadata.permalink or permalink or '/'+(title|slugify)+'/'),
 	img=metadata.url + (ogImage or defaultOGImage),

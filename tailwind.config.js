@@ -104,13 +104,13 @@ module.exports = {
                     "@apply text-black marker:prose-li:text-black": {
                     },
                     "h1": {
-                        "@apply text-prismarine text-4xl font-bold text-center": {},
+                        "@apply text-prismarine text-3xl text-balance sm:text-4xl font-bold text-center": {},
                     },
                     "h2": {
-                        "@apply text-lg text-black text-lg": {},
+                        "@apply text-balance text-lg text-black text-lg": {},
                     },
                     "h3": {
-                        "@apply text-black text-[16px] font-bold": {},
+                        "@apply text-balance text-black text-[16px] font-bold": {},
                     },
                     "a": {
                         "@apply text-red-600 no-underline" : {},
