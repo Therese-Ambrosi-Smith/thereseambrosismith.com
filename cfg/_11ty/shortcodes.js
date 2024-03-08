@@ -53,7 +53,7 @@ module.exports = {
                 let imageAttributes = {
                     alt,
                     sizes,
-                    class: classes + "mx-auto p-[3px] bg-skin border border-skin-600",
+                    class: classes + " mx-auto p-[3px] bg-skin border border-skin-600",
                     loading: "lazy",
                     decoding: "async",
                 };

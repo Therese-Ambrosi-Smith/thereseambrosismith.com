@@ -5,6 +5,13 @@ module.exports = {
     content: ["./src/**/*.{html,js,njk,md,vue}", "./cfg/_11ty/**/*.js"],
     darkMode: "class",
     theme: {
+        screens: {
+            xs: "360px",
+            sm: "640px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+        },
         extend: {
             borderRadius: {
                 DEFAULT: "0.375rem",

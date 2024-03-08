@@ -1,6 +1,6 @@
 ---
 title: "The cat's name is Loofie"
-desc: "I'm often asked, at readings, about the inspiration for \"Wax\". I was inspired by oral histories I read -- transcripts of interviews with women who worked in the shipyards during WWII -- obtained through Rosie the Riveter, WWII Home Front, National Historical Park."
+desc: "I'm often asked, at readings, about the inspiration for \"Wax\". I was inspired by oral histories I read — transcripts of interviews with women who worked in the shipyards during WWII — obtained through Rosie the Riveter, WWII Home Front, National Historical Park."
 date: 2012-09-04
 tags: []
 ---
