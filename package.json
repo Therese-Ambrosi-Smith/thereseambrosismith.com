@@ -29,8 +29,7 @@
     "eleventy",
     "alpinejs",
     "tailwindcss",
-    "cloudflare",
-    "serverless"
+    "cloudflare"
   ],
   "author": {
     "name": "Alex Zappa",
