@@ -5,7 +5,7 @@ pageTitle: Books
 permalink: /books/
 ---
 <div class="flex justify-center md:float-left md:pr-10">
-  <a target="_blank" href="/goto/Wax/">
+  <a target="_blank" href="/goto/wax/">
     {% image "/images/wax-cover.jpg", "", [auto], "w-60 h-80" %}
   </a>
 </div>

@@ -20,7 +20,7 @@ imagination.
 
 On Friday, I was contacted by David Dunham with the WWII American Home front Oral History Project, and learned that his
 team had completed those interviews, and that more are coming! Approximately 100 transcripts are now available
-online, [right here](/goto/ROHO/), with an additional 75 expected by the end of 2012.
+online, [right here](/goto/roho/), with an additional 75 expected by the end of 2012.
 
 If you have stories to share, schedule an interview by contacting David at ddunham@library.berkeley.edu You will inspire
 generations to come.
