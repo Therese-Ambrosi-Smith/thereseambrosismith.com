@@ -4,11 +4,11 @@ layout: base.njk
 <div class="prose mx-auto pt-2 pb-8 md:pt-8 md:pb-14">
 
 	<article>
-		<header class="grid">
-			<h1 class="order-2 mb-0">{{ title }}{%- if draft %} <small class="text-base">[draft]</small>{%- endif %}</h1>
+		<header>
+			<h1 class="my-0">{{ title }}{%- if draft %} <small class="text-base">[draft]</small>{%- endif %}</h1>
 		</header>
 
-    <div class="flex justify-center" style="background: url('https://s0.wp.com/wp-content/themes/pub/liquorice/images/border.gif') repeat-x center">
+    <div class="flex justify-center" style="background: url('/border.gif') repeat-x center">
       <p class="px-2 w-fit bg-body-background post-metadata text-sm text-gray">
         Posted on <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("LLLL dd, yyyy") }}</time>
       </p>
@@ -33,7 +33,7 @@ layout: base.njk
 								<span class="text-sm text-[--tw-prose-body] flex gap-1 items-center justify-start -ml-1">
 									{% feather "arrow-up-left", { "class": "h-5 w-5" } %}<span>Previous</span>
 								</span>
-								<span class="block group-hover:underline text-balance">{{ previousPost.data.title }}</span>
+								<span class="block group-hover:underline text-balance leading-5">{{ previousPost.data.title }}</span>
 							</a>
 						</li>
 					{%- else %}
@@ -45,7 +45,7 @@ layout: base.njk
 								<span class="text-sm text-[--tw-prose-body] flex gap-1 items-center justify-end -mr-1">
 									<span>Next</span>{% feather "arrow-up-right", { "class": "h-5 w-5" } %}
 								</span>
-								<span class="block group-hover:underline text-balance">{{ nextPost.data.title }}</span>
+								<span class="block group-hover:underline text-balance leading-5">{{ nextPost.data.title }}</span>
 							</a>
 						</li>
 					{%- else %}
