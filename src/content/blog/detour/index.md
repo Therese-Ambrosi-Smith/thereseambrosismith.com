@@ -15,8 +15,8 @@ fiction and history, please visit that site too.
 
 I hope we cross paths some day.
 
-{% image "./dscn0841.jpg", "", [auto], "" %}
+{% image "./dscn0841.jpg", "Photo", [1400], "" %}
 
-{% image "./dscn0842.jpg", "", [auto], "" %}
+{% image "./dscn0842.jpg", "Photo", [1400], "" %}
 
-{% image "./dscn0844.jpg", "", [auto], "" %}
+{% image "./dscn0844.jpg", "Photo", [1400], "" %}

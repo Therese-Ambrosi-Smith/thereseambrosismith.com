@@ -18,6 +18,6 @@ Yum.
 
 I hope I get invited back next year. Hint. I had a great time.
 
-{% image "./DSCN0499.jpg", "", [auto] %}
+{% image "./DSCN0499.jpg", "Photo", [1400] %}
 
-{% image "./DSCN0496.jpg", "", [auto] %}
+{% image "./DSCN0496.jpg", "Photo", [1400] %}

@@ -5,7 +5,7 @@ date: 2011-10-30
 tags: []
 ---
 
-{% image "./Screen-shot-2011-10-30-at-11.45.29-AM.png", "", [auto] %}
+{% image "./Screen-shot-2011-10-30-at-11.45.29-AM.png", "Photo", [1400] %}
 
 I’m often asked, at readings, about the inspiration for “Wax”. I was inspired by oral histories I read — transcripts of
 interviews with women who worked in the shipyards during WWII — obtained through Rosie the Riveter, WWII Home Front,

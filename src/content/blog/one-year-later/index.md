@@ -7,7 +7,7 @@ tags: []
 
 A year after its publication, a reviewer in Canada wrote this about “[Wax](https://womeninthe1940s.com).” Maybe it’s time to start thinking about a sequel!
 
-{% image "./allbooks-review.gif", "", [auto], "mx-0" %}
+{% image "./allbooks-review.gif", "Photo", [1400], "mx-0" %}
 
 [WAX](https://womeninthe1940s.com), by Therese Ambrosi Smith, is a story inspired by Rosie the Riveter and the women
 who stepped up, and into the industrial void that was left when practically an entire generation of American men went

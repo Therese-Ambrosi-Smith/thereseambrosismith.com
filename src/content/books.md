@@ -6,7 +6,7 @@ permalink: /books/
 ---
 <div class="flex justify-center md:float-left md:pr-10">
   <a target="_blank" href="/goto/wax/">
-    {% image "/images/wax-cover.jpg", "", [auto], "w-60 h-80" %}
+    {% image "/images/wax-cover.jpg", "Photo", [1400], "w-60 h-80" %}
   </a>
 </div>
 
@@ -29,7 +29,7 @@ successful until an arsonist burns their factory. During the trial, secrets kept
 revealed.
 
 <div class="flex justify-center">
-  {% image "/images/awards.jpg", "", [auto], "" %}
+  {% image "/images/awards.jpg", "Photo", [1400], "" %}
 </div>
 
 Wax is a story of strong female friendship, sexual-discovery, and long-held secrets, set in the 1940’s, as the seeds of
@@ -70,4 +70,4 @@ Below is a list of debut-author-friendly independent bookstores that do online f
 
 <p class="m-0">Watsonville, CA: Crossroads Books</p>
 
-{% image "/images/DSCN05541.jpg", "", [auto] %}
+{% image "/images/DSCN05541.jpg", "Photo", [1400] %}

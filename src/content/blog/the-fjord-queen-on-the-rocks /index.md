@@ -5,7 +5,7 @@ date: 2012-10-18
 tags: []
 ---
 
-{% image "./screen-shot-2012-10-17-at-4-23-09-pm.png", "", [auto], "" %}
+{% image "./screen-shot-2012-10-17-at-4-23-09-pm.png", "Photo", [1400], "" %}
 
 On Saturday, October 13, 2012, at 4:00 hours, the captain of the F/V Fjord Queen was ordered to leave her trapped on the
 rocks at Ross’ Cove. He’d gone aground at 2:30, and after a ninety minute struggle to right the ship, was taking on

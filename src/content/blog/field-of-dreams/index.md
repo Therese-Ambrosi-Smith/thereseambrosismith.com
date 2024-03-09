@@ -16,6 +16,6 @@ With my Beemer hitched to my Ranger, I started the 2400 mile trek home.
 You will ask if I factored fuel costs into the price of the trailer. I did, but not enough. Still, I'm happy with the
 Beemer. She's gonna come back nicely.
 
-{% image "./DSCN0326.jpg", "", [auto] %}
+{% image "./DSCN0326.jpg", "Photo", [1400] %}
 
-{% image "./DSCN0338.jpg", "", [auto] %}
+{% image "./DSCN0338.jpg", "Photo", [1400] %}

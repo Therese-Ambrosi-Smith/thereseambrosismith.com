@@ -5,19 +5,19 @@ date: 2014-06-25
 tags: []
 ---
 
-{% image "./favoriteshot.jpg", "", [auto] %}
+{% image "./favoriteshot.jpg", "Photo", [1400] %}
 
 It’s been a year since “[The New Business](/blog/the-new-business/)” launched; there have been changes! Vertical
 Succulents became [Highway 92 Succulents](/goto/highway92succulents/) in January, and customers responded with
 great support. Take a look at the space below, one year after I signed the lease!
 
-{% image "./dogs-welcome.jpg", "", [auto] %}
+{% image "./dogs-welcome.jpg", "Photo", [1400] %}
 
-{% image "./succulent-shopping-2.jpg", "", [auto] %}
+{% image "./succulent-shopping-2.jpg", "Photo", [1400] %}
 
 This year the business participated in the Filoli Mother’s Day Flower show. Here’s a bit about it.
 
-{% image "./047.jpg", "", [auto] %}
+{% image "./047.jpg", "Photo", [1400] %}
 
 A year ago my photographer-friend Kim Smith accompanied me on a visit to Filoli. I was writing a filler article for SVCN
 and she was taking the requisite five photos. They were just getting ready for the Mother’s Day Flower show. I never
@@ -26,7 +26,7 @@ bring?
 
 Kim came to the special 2014 Flower Show Preview and Exhibitor Reception, and again, took photographs – enjoy!
 
-{% image "./0-grease1-940x1024.jpg", "", [auto] %}
+{% image "./0-grease1-940x1024.jpg", "Photo", [1400] %}
 
 ## Here’s the article I wrote in May, 2013: Filoli, Woodside
 

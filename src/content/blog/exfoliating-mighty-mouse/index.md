@@ -12,4 +12,4 @@ best was for polishing mag wheels.
 
 The camper needs a name. Mighty Mouse was suggested. Mighty Mouse might be about the right vintage.
 
-{% image "./DSCN03401.jpg", "", [auto] %}
+{% image "./DSCN03401.jpg", "Photo", [1400] %}

@@ -9,10 +9,10 @@ Last night one hundred friends gathered on the back patio of The Gate in Belmont
 Many, many thanks to all who helped with the event: Jackie Enx for organizing the band, Larry Poncini for the fabulous
 roast pig, Rhonda, Susan, Julie and Barry for set up and decorations. Here they are at work!
 
-{% image "./DSCN0508.jpg", "", [auto] %}
+{% image "./DSCN0508.jpg", "Photo", [1400] %}
 
-{% image "./DSCN0509.jpg", "", [auto] %}
+{% image "./DSCN0509.jpg", "Photo", [1400] %}
 
-{% image "./DSCN0510.jpg", "", [auto] %}
+{% image "./DSCN0510.jpg", "Photo", [1400] %}
 
-{% image "./DSCN0511.jpg", "", [auto] %}
+{% image "./DSCN0511.jpg", "Photo", [1400] %}

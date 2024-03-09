@@ -5,9 +5,9 @@ date: 2011-10-20T11:00:00.000Z
 tags: []
 ---
 
-{% image "./Screen-shot-2011-10-20-at-12.49.34-PM.png", "", [auto] %}
+{% image "./Screen-shot-2011-10-20-at-12.49.34-PM.png", "Photo", [1400] %}
 
-{% image "./Screen-shot-2011-10-20-at-12.50.21-PM.png", "", [auto] %}
+{% image "./Screen-shot-2011-10-20-at-12.50.21-PM.png", "Photo", [1400] %}
 
 On October 15th I had the pleasure of participating in the Richmond, WWII Home Front Festival, a cooperative effort
 between the City of Richmond, the Richmond Chamber of Commerce, and the National Park Service. I hadn’t attended before,

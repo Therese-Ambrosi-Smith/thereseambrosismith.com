@@ -5,7 +5,7 @@ date: 2013-05-01
 tags: []
 ---
 
-{% image "./dscn09041.jpg", "", [auto] %}
+{% image "./dscn09041.jpg", "Photo", [1400] %}
 
 I’m still working on The Earthen Corral. I thought I’d finish it by Christmas 2012, but that was before the wreck of the
 Fjord Queen on October 13th. The clean-up (both physical and bureaucratic) took much longer than expected and before it

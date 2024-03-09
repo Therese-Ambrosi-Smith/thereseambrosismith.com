@@ -17,10 +17,10 @@ I’m keeping progress photos.
 The nursery was abandoned more than a decade ago, when cut rose growing moved to Central America, so there’s work to
 do.The goats are important members of the team.
 
-{% image "./goats-at-work.jpg", "", [auto] %}
+{% image "./goats-at-work.jpg", "Photo", [1400] %}
 
-{% image "./post-goats.jpg", "", [auto] %}
+{% image "./post-goats.jpg", "Photo", [1400] %}
 
-{% image "./weed-block-down.jpg", "", [auto] %}
+{% image "./weed-block-down.jpg", "Photo", [1400] %}
 
 Stay tuned.  We plan to open on September 5th.

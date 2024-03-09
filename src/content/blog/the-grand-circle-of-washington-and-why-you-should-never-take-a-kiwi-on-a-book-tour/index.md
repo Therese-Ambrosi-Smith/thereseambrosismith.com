@@ -18,11 +18,11 @@ Spokane and Leavenworth. What to do? Visit Mount Rainer, of course! Or, the Fore
 and Leavenworth. What I didn’t know about my GPS — pavement is optional. A road is a road if it shows up on a forest
 service map somewhere.
 
-{% image "./DSCN0543.jpg", "", [auto] %}
+{% image "./DSCN0543.jpg", "Photo", [1400] %}
 
-{% image "./crossing-the-stream-bed.jpg", "", [auto] %}
+{% image "./crossing-the-stream-bed.jpg", "Photo", [1400] %}
 
-{% image "./entering-the-stream-bed.jpg", "", [auto] %}
+{% image "./entering-the-stream-bed.jpg", "Photo", [1400] %}
 
 I was a bit nervous about leaving the asphalt, but not my Kiwi companion. (Sir Edmond Hillary was a Kiwi after all).
 Here is Barry after the second dry stream bed crossing. Doesn’t he look proud of himself?

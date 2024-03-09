@@ -18,6 +18,6 @@ about two weeks. As of today, only half the roof has shingles. The inside needs 
 material that I sanded and coated for flooring still needs to be fitted and nailed into place. But when all is done, I
 will invite my imaginary friends to visit and enthusiastically return to novel writing.
 
-{% image "./dscn0761.jpg", "", [auto], "" %}
+{% image "./dscn0761.jpg", "Photo", [1400], "" %}
 
-{% image "./dscn0818.jpg", "", [auto], "" %}
+{% image "./dscn0818.jpg", "Photo", [1400], "" %}
