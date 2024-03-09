@@ -1,7 +1,15 @@
-{% set pageTitle = metadata.suffix + (pageTitle or title) %}
+{% set pageTitle = (pageTitle or title) + metadata.suffix %}
 
-{% if permalink|includes('/blog/') and permalink !== '/blog/' %}
-  {% set pageTitle = title + ' | Therese Ambrosi Smith' %}
+{% if permalink == '/' %}
+  {% set pageTitle = metadata.author.name %}
+{% endif %}
+
+{% if permalink == '404.html' %}
+  {% set pageTitle = title %}
+{% endif %}
+
+{% if layout == 'post.njk' %}
+  {% set permalink = "/blog/" ~ title | slugify ~ "/" %}
 {% endif %}
 
 {% set defaultOGImage = '/default-og-image.png' %}
@@ -27,7 +35,3 @@
 	generator='Eleventy',
 	comments=true
 %}
-
-{#- Atom and JSON feeds included by default #}
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-<link rel="alternate" href="/feed.json" type="application/json" title="{{ metadata.title }}">
